@@ -18,7 +18,6 @@ body{
 }
 main{
     width: 730px;
-    margin: 70px auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,17 +74,27 @@ button{
 @media (max-width: 700px) {
     main{
         display: block;
+        width: 100%;
     }
     .section1{
         width: 100%;
+        padding: 5px;
+        opacity: 0.9;
     }
     .section2{
         width: 100%;
+        padding: 0;
+        opacity: 0.9;
         
     }
     .padre1{
         display: flex;
-
-    justify-content: center;
+    }
+    button{
+        width: ;
+    }
+    .start{
+        width: 100%;
+        height: 50px;
     }
 }
