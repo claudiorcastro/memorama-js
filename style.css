@@ -72,9 +72,15 @@ button{
     opacity: 0.5;
 }
 @media (max-width: 700px) {
+    html{
+        height:100%;
+    }
     main{
         display: block;
         width: 100%;
+    }
+    h1{
+        margin: 3px;
     }
     .section1{
         width: 100%;
@@ -85,16 +91,23 @@ button{
         width: 100%;
         padding: 0;
         opacity: 0.9;
-        
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .estadisticas{
+        height: 50px;
     }
     .padre1{
+        width: 100%;
         display: flex;
     }
     button{
-        width: ;
+        padding: 10px;
     }
     .start{
         width: 100%;
         height: 50px;
+        margin-bottom: 10px;
+        padding: 10px;
     }
 }
