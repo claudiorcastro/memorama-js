@@ -46,7 +46,7 @@ function cronometro() {
                     location.reload();                  
                 }
             })
-        }
+        };
     }, 1000);
 }
 
@@ -78,7 +78,7 @@ function destapar(id) {
             contador_aciertos.innerHTML = `${aciertos}`;
             if (aciertos == 8) {
                 contador_aciertos.innerHTML = `${aciertos} &#128540;`;
-                Swal.fire('GANASTE!!')
+                Swal.fire('GANASTE!!<br>Volve a jugar!')
                 .then((result) => {
                     if (result.isConfirmed) {
                         location.reload();                  
