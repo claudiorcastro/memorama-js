@@ -78,6 +78,12 @@ function destapar(id) {
             contador_aciertos.innerHTML = `${aciertos}`;
             if (aciertos == 8) {
                 contador_aciertos.innerHTML = `${aciertos} &#128540;`;
+                Swal.fire('GANASTE!!')
+                .then((result) => {
+                    if (result.isConfirmed) {
+                        location.reload();                  
+                    }
+                })
             }
         }else{
             setTimeout(() => {
