@@ -3,8 +3,18 @@
     margin: 0;
     padding: 0;
 }
+html{
+    height:100%;
+}
 body{
     background-image: url(fondo.gif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 main{
     width: 730px;
@@ -61,4 +71,21 @@ button{
 .disable{
     cursor: not-allowed;
     opacity: 0.5;
+}
+@media (max-width: 700px) {
+    main{
+        display: block;
+    }
+    .section1{
+        width: 100%;
+    }
+    .section2{
+        width: 100%;
+        
+    }
+    .padre1{
+        display: flex;
+
+    justify-content: center;
+    }
 }
