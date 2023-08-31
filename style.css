@@ -8,9 +8,10 @@ body{
 }
 main{
     width: 730px;
-    margin: 70px auto 50px;
+    margin: 70px auto;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .section1{
     background-color:blue;
@@ -51,7 +52,7 @@ button{
     height: 50px;
     width: 200px;
     font-size: 15px;
-    margin-bottom: 20px;
+    margin-top: 20px;
     color: white;
     background-color: #216de8;
     border: 1px solid white;
@@ -60,4 +61,10 @@ button{
 .disable{
     cursor: not-allowed;
     opacity: 0.5;
+}
+
+@media screen {
+    .main{
+    
+    }
 }
