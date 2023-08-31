@@ -84,7 +84,7 @@ function destapar(id) {
                         location.reload();                  
                     }
                 })
-            }
+            };
         }else{
             setTimeout(() => {
                 tarjeta1.innerHTML = ' ';
@@ -94,5 +94,5 @@ function destapar(id) {
                 tarjetasDestapadas = 0;
             },500);
         }
-    }
+    };
 }
